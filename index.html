@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> المبرمج محمد قريع </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <meta name="google-site-verification" content="8WgsUgFDARiXk02Xsr6SbfCf-iKOAXWeJekd9CKGWzs" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEB43FT1P2"></script>
+  
+</head>
+<body>
+  <button class="toggle-theme-btn" id="toggleThemeBtn" title="تبديل الوضع">
+    <i class="fas fa-moon" id="themeIcon"></i>
+  </button>
+  
+  <div class="night-glow"></div>
+  
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">المبرمج م/ محمد قريع</div>
+      <nav class="nav-links">
+        <a href="#about">عنّي</a>
+        <a href="#skills">مهاراتي</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <header class="hero">
+    <div class="container">
+      <div class="intro-text">
+        <h1>مرحباً، أنا <span class="highlight">المبرمج م/ محمد قريع</span></h1>
+        <p>مطور تطبيقات الجوال - مهندس نفط - مبرمج ومطور ويب</p>
+        <a href="#about" class="btn"><span>من أنا</span></a>
+      </div>
+      <div class="hero-img-container">
+        <img src="profile.jpg" alt="صورة محمد قريع" class="hero-img" />
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section fade-in">
+    <div class="container">
+      <h2>عنّي</h2>
+      <p>أنا محمد قريع، طالب في المستوى الثالث من تكنولوجيا المعلومات، أعمل كمطور ومبرمج مواقع باستخدام HTML, CSS, PHP, JS.</p>
+      <p>أمتلك شغفًا كبيرًا بتحويل الأفكار إلى واقع رقمي ملموس، وأؤمن بقوة التكنولوجيا في تغيير العالم نحو الأفضل.</p>
+      <p>أحب تطوير واجهات مستخدم حديثة وتفاعلية تجمع بين الجمال البصري والأداء الفعال، مع الالتزام بأفضل ممارسات التطوير.</p>
+      <p>إلى جانب البرمجة، لدي خبرة في مجال هندسة النفط مما أضاف لي منظورًا فريدًا في حل المشكلات المعقدة.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section fade-in">
+    <div class="container">
+      <h2>مهاراتي</h2>
+      <div class="cards">
+        <div class="card fade-in delay-1">
+          <i class="fas fa-code"></i>
+          <h3>مبرمج</h3>
+          <p>أمتلك خبرة في تطوير المواقع وكتابة الأكواد بلغات مختلفة مع الالتزام بأفضل الممارسات البرمجية.</p>
+        </div>
+        <div class="card fade-in delay-2">
+          <i class="fas fa-laptop-code"></i>
+          <h3>أجهزة كمبيوتر</h3>
+          <p>أستخدم بيئات تطوير حديثة وأدوات احترافية في عملي لضمان الجودة والأداء العالي.</p>
+        </div>
+        <div class="card fade-in delay-3">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <p>بناء هيكل صفحات الويب بدقة عالية ومتوافقة مع المعايير الحديثة وسهلة الصيانة.</p>
+        </div>
+        <div class="card fade-in delay-4">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <p>تصميم واجهات جذابة وسريعة الاستجابة باستخدام أحدث تقنيات CSS.</p>
+        </div>
+        <div class="card fade-in delay-5">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>إضافة الحركات والتفاعلات الذكية للموقع لتحسين تجربة المستخدم.</p>
+        </div>
+        <div class="card fade-in delay-6">
+          <i class="fab fa-php"></i>
+          <h3>PHP</h3>
+          <p>برمجة الخلفية وربط قواعد البيانات باحترافية لإنشاء تطبيقات ويب ديناميكية.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2>تواصل معي</h2>
+      <div class="social">
+        <a href="https://instagram.com/qv.zj" target="_blank" title="إنستغرام">
+          <i class="fab fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+        <a href="https://wa.me/967717491503" target="_blank" title="واتساب">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    جميع الحقوق محفوظة &copy; محمد قريع 2025
+  </footer>
+
+  <script>
+    // Theme toggle logic
+    const btn = document.getElementById('toggleThemeBtn');
+    const icon = document.getElementById('themeIcon');
+    const header = document.querySelector('.site-header');
+    
+    function setTheme(light) {
+      if (light) {
+        document.body.classList.add('light-mode');
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        document.body.classList.remove('light-mode');
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    }
+    
+    // Load theme from localStorage
+    let isLight = localStorage.getItem('theme') === 'light';
+    setTheme(isLight);
+    
+    btn.onclick = function() {
+      isLight = !isLight;
+      setTheme(isLight);
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    };
+    
+    // Header scroll effect
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    // Animation on scroll
+    const fadeElements = document.querySelectorAll('.fade-in');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'running';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+    
+    fadeElements.forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
